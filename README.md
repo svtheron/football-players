@@ -2,7 +2,8 @@
 
 ## Overview
 
-This project analyses the determinants of player market value across Europe's Big Five football leagues (England, Spain, Italy, Germany, France) from 2004 to 2024. Using a panel of over 100,000 player-season observations, the analysis explores how position, age, goal-scoring output, and league affiliation shape a player's market valuation. The project is implemented in R using the tidyverse ecosystem and ggplot2.
+This project analyses the determinants of player market value across Europe's Big Five football leagues (England, Spain, Italy, Germany, France) from 2004 to 2024. 
+Employs a panel of over 100,000 player-season observations, the analysis explores how position, age, goal-scoring output, and league affiliation shape a player's market valuation. The project is implemented in R using RStudio.
 
 ## Structure
 
