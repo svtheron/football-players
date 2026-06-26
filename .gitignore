@@ -1,0 +1,25 @@
+# Data
+*.csv
+*.dta
+*.xlsx
+*.xls
+*.rds
+*.RData
+*.sav
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archive
+_archive/
+
+# Output (generated — reproduce by running scripts/02_analysis.R)
+output/*.png
+output/*.pdf
