@@ -60,10 +60,34 @@ This loads the data, applies all cleaning steps, and saves five figures to `outp
 
 ## Analysis Summary
 
-The five figures produced tell a sequential story:
+The five figures produced tell a sequential story.
 
-1. **Market inflation (2004–2024)** — Median player market values have risen sharply across all five leagues since 2004, with growth accelerating after 2010.
-2. **Value by position** — Attackers command the widest and highest value distributions; goalkeepers are the most compressed.
-3. **The career arc** — Market value follows an inverted-U trajectory that peaks at different ages by position: attackers tend to peak in their mid-twenties, defenders and goalkeepers slightly later.
-4. **The goalscorer premium** — Among attackers, high goal output relative to appearances is a strong marker of elevated market value.
-5. **League comparison** — The Premier League consistently hosts the highest-valued players; differences across leagues are material even within the same position.
+**1. The rising market (2004–2024)**
+
+Median player market values have risen sharply across all five leagues since 2004, with growth accelerating after 2010.
+
+![Market inflation by league](output/01_market_inflation.png)
+
+**2. Value by position**
+
+Attackers command the widest and highest value distributions; goalkeepers are the most compressed.
+
+![Market value distribution by position](output/02_value_by_position.png)
+
+**3. The career arc**
+
+Market value follows an inverted-U trajectory that peaks at different ages by position: attackers tend to peak in their mid-twenties, defenders and goalkeepers slightly later.
+
+![Age-value curves by position](output/03_age_value_curves.png)
+
+**4. The goalscorer premium**
+
+Among attackers, high goal output relative to appearances is a strong marker of elevated market value.
+
+![Goalscorer premium](output/04_goalscorer_premium.png)
+
+**5. League comparison**
+
+The Premier League consistently hosts the highest-valued players; differences across leagues are material even within the same position.
+
+![Market value by league](output/05_league_comparison.png)

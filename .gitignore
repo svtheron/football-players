@@ -20,6 +20,5 @@ Thumbs.db
 # Archive
 _archive/
 
-# Output (generated — reproduce by running scripts/02_analysis.R)
-output/*.png
+# Output (PDFs excluded; PNGs are committed so they render in the README)
 output/*.pdf
