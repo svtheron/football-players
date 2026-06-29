@@ -36,28 +36,6 @@ The full dataset spans seasons from 1999 to 2025 and covers multiple European le
 
 To reproduce the analysis, place `players_master.csv` in the `data/` directory and run `scripts/02_analysis.R`.
 
-## Requirements
-
-- **R** (≥ 4.2)
-- **Packages**: `tidyverse`, `ggridges`, `scales`, `paletteer`
-- **Optional font**: Atkinson Hyperlegible (used in figures; falls back to system default if unavailable)
-
-Install all packages with:
-
-```r
-install.packages(c("tidyverse", "ggridges", "scales", "paletteer"))
-```
-
-## Usage
-
-Set your working directory to the project root, then run:
-
-```r
-source("scripts/02_analysis.R")
-```
-
-This loads the data, applies all cleaning steps, and saves five figures to `output/`. Expected runtime is under two minutes on a standard laptop.
-
 ## Analysis Summary
 
 The five figures produced tell a sequential story.
